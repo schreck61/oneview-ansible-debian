@@ -19,4 +19,4 @@ RUN DEBIAN_FRONTEND=noninteractive \
 ENV ANSIBLE_LIBRARY=/root/oneview-ansible/library
 ENV ANSIBLE_MODULE_UTILS=/root/oneview-ansible/library/module_utils/
 
-CMD [ "/usr/bin/ansible", "--version" ]
+CMD [ "/usr/local/bin/ansible", "--version" ]
