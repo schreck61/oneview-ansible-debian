@@ -6,13 +6,13 @@ Docker image for HPE oneview-ansible modules on Debian
 
 * Debian Stretch
 * python 2.7.14
-* ansible 2.5.0
-* hpOneView 4.5.0
-* oneview-ansible 5.0.0
+* ansible 2.5.2
+* hpOneView 4.6.0
+* oneview-ansible 5.1.0
 
 ## Usage
 
-ansible-debian contains no playbooks or configuration. Everything must be passed in.
+oneview-ansible-debian contains no playbooks or configuration. Everything must be passed in.
 
 ### Ansible inventory and playbooks
 
@@ -31,6 +31,6 @@ Assume a named volume `playbooks` with the Ansible inventory and a `site.yml` pl
 ```console
 docker run \
     -v playbooks:/playbooks \
-    bobfraser1/ansible-debian \
+    bobfraser1/oneview-ansible-debian \
     ansible-playbook -i /playbooks/hosts /playbooks/site.yml
 ```
