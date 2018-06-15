@@ -5,10 +5,10 @@ Docker image for HPE oneview-ansible modules on Debian
 ## Versions
 
 * Debian Stretch
-* python 2.7.14
-* ansible 2.5.2
-* hpOneView 4.6.0
-* oneview-ansible 5.1.0
+* python 2.7.15
+* ansible 2.5.5
+* hpOneView 4.7.0
+* oneview-ansible 5.1.1
 
 ## Usage
 
